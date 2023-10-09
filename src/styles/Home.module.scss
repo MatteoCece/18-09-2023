@@ -1,12 +1,24 @@
 .main {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   padding: 6rem;
   min-height: 100vh;
 }
 
+.TodoPage {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: 50px 50px;
+
+  .Head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
 .description {
   display: inherit;
   justify-content: inherit;
@@ -97,7 +109,7 @@
 
 .center::before,
 .center::after {
-  content: '';
+  content: "";
   left: 50%;
   position: absolute;
   filter: blur(45px);

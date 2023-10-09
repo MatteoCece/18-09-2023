@@ -1,0 +1,20 @@
+.Card {
+  width: 200px;
+  border-radius: 12px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+
+  img {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    object-fit: cover;
+  }
+
+  .texts {
+    padding: 6px 24px;
+    cursor: pointer;
+
+    &:hover {
+      color: lightseagreen;
+    }
+  }
+}
